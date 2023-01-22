@@ -11,8 +11,8 @@ documentBody.addEventListener('click', () => {
 function createDropdown(e) {
     e.stopPropagation();
     menuDropdown.classList.add('active');
-    menuDropdown.style.left = `${e.clientX}px`
-    menuDropdown.style.top = `${e.clientY}px`
+    // menuDropdown.style.left = `${e.clientX}px`
+    // menuDropdown.style.top = `${e.clientY}px`
 }
 
 function dropdownSelect(e) {
