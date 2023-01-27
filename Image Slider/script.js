@@ -11,14 +11,6 @@ imageSelector.forEach(element => {
     })
     });
 
-sliderImages.forEach(element => {
-    element.addEventListener('click', e => {
-        removeImageClasses(sliderImages);
-        e.target.classList.add('active');
-    })
-})
-
-
 function removeImageClasses(arr) {
     for (item of arr) {
         item.classList.remove('active');
